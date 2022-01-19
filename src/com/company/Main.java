@@ -18,7 +18,7 @@ public class Main {
         textField.setBounds(10,50,250,30);
         frame.add(textField);
         JLabel label = new JLabel("Надпись");
-        label.setBounds(10,90, 250,30);
+        label.setBounds(10,190, 250,30);
         frame.add(label);
         frame.setVisible(true);
         button.addActionListener(new ActionListener() {
